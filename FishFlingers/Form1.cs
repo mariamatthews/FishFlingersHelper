@@ -159,7 +159,13 @@ namespace FishFlingers
 
         private void resetButton_Click(object sender, EventArgs e)
         {
-
+            foreach (var control in this.Controls )
+            {
+                if (control is CheckBox)
+                {
+                    ((CheckBox)control).Checked = false;
+                }
+            }
         }
 
         private void resetButton_MouseDown(object sender, MouseEventArgs e)
@@ -172,6 +178,11 @@ namespace FishFlingers
         {
             Button thisButton = (Button)sender;
             thisButton.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject("resetButton");
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

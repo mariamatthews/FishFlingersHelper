@@ -8,3 +8,13 @@ C:\Users\maria\source\repos\FishFlingers\FishFlingers\obj\Debug\FishFlingers.csp
 C:\Users\maria\source\repos\FishFlingers\FishFlingers\obj\Debug\FishFlingers.csproj.CoreCompileInputs.cache
 C:\Users\maria\source\repos\FishFlingers\FishFlingers\obj\Debug\FishFlingers.exe
 C:\Users\maria\source\repos\FishFlingers\FishFlingers\obj\Debug\FishFlingers.pdb
+C:\GitHub\FishFlingersHelper\FishFlingers\bin\Debug\FishFlingers.exe.config
+C:\GitHub\FishFlingersHelper\FishFlingers\bin\Debug\FishFlingers.exe
+C:\GitHub\FishFlingersHelper\FishFlingers\bin\Debug\FishFlingers.pdb
+C:\GitHub\FishFlingersHelper\FishFlingers\obj\Debug\FishFlingers.csprojAssemblyReference.cache
+C:\GitHub\FishFlingersHelper\FishFlingers\obj\Debug\FishFlingers.Form1.resources
+C:\GitHub\FishFlingersHelper\FishFlingers\obj\Debug\FishFlingers.Properties.Resources.resources
+C:\GitHub\FishFlingersHelper\FishFlingers\obj\Debug\FishFlingers.csproj.GenerateResource.cache
+C:\GitHub\FishFlingersHelper\FishFlingers\obj\Debug\FishFlingers.csproj.CoreCompileInputs.cache
+C:\GitHub\FishFlingersHelper\FishFlingers\obj\Debug\FishFlingers.exe
+C:\GitHub\FishFlingersHelper\FishFlingers\obj\Debug\FishFlingers.pdb

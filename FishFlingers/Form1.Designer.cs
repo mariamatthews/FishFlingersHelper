@@ -50,7 +50,7 @@
             this.slimCheckBox = new System.Windows.Forms.CheckBox();
             this.greyMothCheckBox = new System.Windows.Forms.CheckBox();
             this.resetButton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.closeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // wormsCheckBox
@@ -347,14 +347,17 @@
             this.resetButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.resetButton_MouseDown);
             this.resetButton.MouseUp += new System.Windows.Forms.MouseEventHandler(this.resetButton_MouseUp);
             // 
-            // button1
+            // closeButton
             // 
-            this.button1.Location = new System.Drawing.Point(137, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.closeButton.BackgroundImage = global::FishFlingers.Properties.Resources.closeButton1;
+            this.closeButton.FlatAppearance.BorderSize = 0;
+            this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.closeButton.Location = new System.Drawing.Point(209, 5);
+            this.closeButton.Name = "closeButton";
+            this.closeButton.Size = new System.Drawing.Size(29, 29);
+            this.closeButton.TabIndex = 21;
+            this.closeButton.UseVisualStyleBackColor = true;
+            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // Form1
             // 
@@ -363,7 +366,7 @@
             this.BackgroundImage = global::FishFlingers.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(247, 286);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.closeButton);
             this.Controls.Add(this.resetButton);
             this.Controls.Add(this.sixCheckBox);
             this.Controls.Add(this.fiveCheckBox);
@@ -417,7 +420,7 @@
         private System.Windows.Forms.CheckBox sixCheckBox;
         private System.Windows.Forms.CheckBox greyMothCheckBox;
         private System.Windows.Forms.Button resetButton;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button closeButton;
     }
 }
 
