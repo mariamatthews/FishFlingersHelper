@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{159875C0-9FCA-42B5-B1F0-D3EFCB220DFA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FishFlingers</RootNamespace>
+    <AssemblyName>FishFlingers</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wormsActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maggots.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\locusts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crickets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greyMoth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crayfish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shrimp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenMoth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\standard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doubleHook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\one.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\two.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\three.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\four.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\five.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\six.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maggotsActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\locustsActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cricketsActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crayfishActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shrimpActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenMothActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greyMothActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\standardActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\largeActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doubleHookActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boneActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\woodActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oneActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twoActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\threeActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fourActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fiveActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sixActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slimActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resetButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resetButtonActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeButton.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
